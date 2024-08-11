@@ -31,6 +31,13 @@
   .navMenu li:hover{
     background:gray;
   }
+  .dropdown .dropdown-menu{
+    overflow: hidden !important;
+  }
+  .dropdown-menu[data-bs-popper] {
+    left: -150px !important;
+    margin-right: 10px;
+  }
   
   .burger{
     display:none;
